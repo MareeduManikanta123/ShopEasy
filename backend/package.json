@@ -1,0 +1,26 @@
+{
+  "name": "shopeasy-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the ShopEasy e-commerce platform",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "express",
+    "postgresql"
+  ],
+  "author": "Manikanta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
